@@ -1,19 +1,19 @@
 1- PRIMEROS PASOS
 
-	- Inscribirse en Kaggle. Unirnos como equipo/equipos en la competición.
-	- Incribir en GitHub y unirnos a un repositorio. Aprender a utilizarlo.
-	- Descargar los datos de la competición.
-	- Ir añadiendo puntos en este RoadMap.
+	- Inscribirse en Kaggle. Unirnos como equipo/equipos en la competiciÃ³n. (EN PROCESO)
+	- Incribir en GitHub y unirnos a un repositorio. Aprender a utilizarlo. (EN PROCESO)
+	- Descargar los datos de la competiciÃ³n.(PENDIENTE)
+	- Ir aÃ±adiendo puntos en este RoadMap.(PENDIENTE)
 
 2- TAREAS INICIALES: Dividirlas entre personas
 
-	- Resumen a alto nivel de los conjuntos de datos y visión global del problema.
-	- Sin entrar a los datos, clasificar tipos de variables (continua, discreta ordinal...) y técnicas más utilizadas para limpiar los datos.
-	- R: Ir preparando un "Start" o código de extracción para los conjuntos de datos.( esto irá creciendo según utilizemos paquetes).
+	- Resumen a alto nivel de los conjuntos de datos y visiÃ³n global del problema.(PENDIENTE)
+	- Sin entrar a los datos, clasificar tipos de variables (continua, discreta ordinal...) y tÃ©cnicas mÃ¡s utilizadas para limpiar los datos. (PENDIENTE)
+	- R: Ir preparando un "Start" o cÃ³digo de extracciÃ³n para los conjuntos de datos.( esto irÃ¡ creciendo segÃºn utilizemos paquetes). (PENDIENTE)
 
-3- DEPURACIÓN DE LA BASE DE DATOS.
+3- DEPURACIÃ“N DE LA BASE DE DATOS.
 
-	- Dividir los datos entre personas, ya sea por número de variables, ficheros, o por tipo de variable.
-	- Depurar la base de datos: Temas como Missings, Outliers, Transformaciones, agrupaciones...
+	- Dividir los datos entre personas, ya sea por nÃºmero de variables, ficheros, o por tipo de variable. (PENDIENTE)
+	- Depurar la base de datos: Temas como Missings, Outliers, Transformaciones, agrupaciones... (PENDIENTE)
 	
 	
