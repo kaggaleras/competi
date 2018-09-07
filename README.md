@@ -1,5 +1,15 @@
 <link href="stylex.css" rel="stylesheet" type="text/css">
-<div id="contenedor">
+<style type="text/css">
+<!--
+body,td,th {
+	font-size: 16px;
+	color: #000000;
+}
+body {
+	background-color: #99FF00;
+}
+-->
+</style><div id="contenedor">
   <div id="cabecera">FUTURE SALES </div>
   <div class="cetraiframe" id="contenedorportada">
     <p>1.- PRIMEROS PASOS</p>
