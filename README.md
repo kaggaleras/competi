@@ -1,15 +1,3 @@
-# competi
-El objetivo de esta herramienta es que todos vayamos subiendo los códigos, comentarios y resultados de lo que vamos haciendo. Ademas poder organizar las nuevas ideas que vayan saliendo.
-MIME-Version: 1.0
-X-Document-Type: Workbook
-Content-Type: multipart/related; boundary="----=_NextPart_01D446F3.7FAD5450"
-
-Este documento es una página web de un solo archivo, también conocido como "archivo de almacenamiento web". Si está viendo este mensaje, su explorador o editor no admite archivos de almacenamiento web. Descargue un explorador que admita este tipo de archivos.
-
-------=_NextPart_01D446F3.7FAD5450
-Content-Location: file:///C:/E87199E5/README.htm
-Content-Transfer-Encoding: quoted-printable
-Content-Type: text/html; charset="windows-1252"
 
 <html xmlns:v=3D"urn:schemas-microsoft-com:vml"
 xmlns:o=3D"urn:schemas-microsoft-com:office:office"
