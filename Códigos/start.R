@@ -3,16 +3,19 @@
 #------------------------------------------------------------------------------------------#
 
 #PAQUETES
-
 #install.packages("dplyr")
 library(dplyr)
+
+#LA SIGUIENTE SENTENCIA ES PARA VER BIEN LOS CARÁCTERES EN RUSO, HAY
+#QUE ACOMPAÑARLO CON CON EL ENCODING="UTF-8"
+Sys.setlocale("LC_CTYPE", "russian")
 
 #CARGA DE ARCHIVOS
 datos = read.csv("C:/Users/Ruben/Desktop/Ruben/Kaggle/Future Sales/sales_train_v2.csv")
 test=read.csv("C:/Users/Ruben/Desktop/Ruben/Kaggle/Future Sales/test.csv")
-shops=read.csv("C:/Users/Ruben/Desktop/Ruben/Kaggle/Future Sales/shops.csv")
-items=read.csv("C:/Users/Ruben/Desktop/Ruben/Kaggle/Future Sales/items.csv")
-cat_items=read.csv("C:/Users/Ruben/Desktop/Ruben/Kaggle/Future Sales/item_categories.csv")
+shops=read.csv("C:/Users/Ruben/Desktop/Ruben/Kaggle/Future Sales/shops.csv",encoding="UTF-8")
+items=read.csv("C:/Users/Ruben/Desktop/Ruben/Kaggle/Future Sales/items.csv",encoding="UTF-8")
+cat_items=read.csv("C:/Users/Ruben/Desktop/Ruben/Kaggle/Future Sales/item_categories.csv",encoding="UTF-8")
 
 #UNIMOS EN NUESTROS DATOS TODAS LAS VARIABLES
 datos = datos%>%left_join(shops,by="shop_id")
@@ -29,3 +32,5 @@ validation <- datos[ind == 2, ]
 test = test%>%left_join(shops,by="shop_id")
 test = test%>%left_join(items,by="item_id")
 test = test%>%left_join(cat_items,by="item_category_id")
+
+
